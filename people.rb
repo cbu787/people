@@ -1,1 +1,7 @@
-puts "test"
+class Student
+
+end
+
+class Instructor
+
+end
