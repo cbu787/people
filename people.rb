@@ -26,4 +26,8 @@ chris = Instructor.new("Chris")
 cristina = Student.new("Cristina")
 
 # chris.greeting
-cristina.greeting
+# cristina.greeting
+
+chris.teach
+cristina.learn
+# cristina.teach does not work as the method "teach" is not defined within the Student class, only within Instructor.
