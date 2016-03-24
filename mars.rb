@@ -16,7 +16,16 @@ class Rover
   end
 
   def left
-  end
+    if @direction == "N"
+      @direction = "W"
+    elsif @direction == "W"
+      @direction = "S"
+    elsif @direction == "S"
+      @direction = "E"
+    else
+      @direction = "N"
+    end
+end
 
   def move
   end
